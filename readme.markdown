@@ -16,10 +16,10 @@ usernames after each user's name.
    CSS to add their Minecraft names after their username
    
 ## Setup
-1. Put usernames in users.txt in 'reddit:minecraft" pairs, or as a single word
+1. Put usernames in users.txt in "reddit:minecraft" pairs, or as a single word
    if they are the same
 2. Customise the CSS files as needed
-3. Run script
+3. Run script (`python gen.py`)
 4. Upload the spritesheet.png to the subreddit under the name of "spritesheet"
 5. Copy and paste the generated CSS into the subreddit's stylesheet
    configuration
