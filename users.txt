@@ -1,0 +1,47 @@
+# Specify the reddit username and minecraft username on each line
+# If they differ, put them in the format "reddit:minecraft"
+#
+# Example:
+#     rmccue
+#     Popengton
+#     MonkeyCrumpets:monkeycrumpets
+#
+# Note: case sensitive
+# If you start getting a bunch of 404s, it's because you're doing it wrong
+#
+MonkeyCrumpets:monkeycrumpets
+NotADoctor
+xrobau
+mrmarcel
+Pretzel_Boy:PretzelBoy
+Al_Rascala:AlRascala
+BlackJack313
+TJ_FS:tjfs
+jdwpom
+Pandamonial:pandaslol
+bakkaar:bakkar
+flashman:Electronsoup
+the1stPlague:the1stplague
+thavi
+GregorCZ
+emilevictor:laR0che
+TheStrelok
+Skeletal
+flashing_lights:mdubbs
+Managore
+wonderbreadz
+toejam316
+Doozz
+xloserfishx
+dardyfella:Wigga
+MysteryStain:penterz
+Popengton
+rmccue
+Reikk:squafro
+bruint
+mrsheen
+Kie:Kieness
+cmrn
+Maxwell_Lord:maxwell_lord
+dog_time:dogtime
+JacobAus:DamnPants

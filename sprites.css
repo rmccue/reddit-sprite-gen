@@ -1,0 +1,840 @@
+a.author:before {
+    width: 16px;
+    height: 16px;
+    background-image: url(%%spritesheet%%);
+	background-position: -272px 0px;
+    display: inline-block;
+    cursor: default;
+    margin: 0 3px;
+	content: " ";
+}
+a.author:after {
+	font-size: xx-small;
+	color: orangered;
+	padding-left: 3px;
+}
+
+/* This gets replaced by the script */
+a.author[href$="the1stPlague"]:before { background-position: -0px 0px }
+a.author[href$="Doozz"]:before { background-position: -16px 0px }
+a.author[href$="Popengton"]:before { background-position: -32px 0px }
+a.author[href$="bruint"]:before { background-position: -48px 0px }
+a.author[href$="BlackJack313"]:before { background-position: -64px 0px }
+a.author[href$="mrmarcel"]:before { background-position: -80px 0px }
+a.author[href$="GregorCZ"]:before { background-position: -96px 0px }
+a.author[href$="wonderbreadz"]:before { background-position: -112px 0px }
+a.author[href$="MonkeyCrumpets"]:before { background-position: -128px 0px }
+a.author[href$="toejam316"]:before { background-position: -144px 0px }
+a.author[href$="Managore"]:before { background-position: -160px 0px }
+a.author[href$="Kie"]:before { background-position: -176px 0px }
+a.author[href$="TJ_FS"]:before { background-position: -192px 0px }
+a.author[href$="jdwpom"]:before { background-position: -208px 0px }
+a.author[href$="xrobau"]:before { background-position: -224px 0px }
+a.author[href$="Pandamonial"]:before { background-position: -240px 0px }
+a.author[href$="Al_Rascala"]:before { background-position: -256px 0px }
+a.author[href$="thavi"]:before { background-position: -288px 0px }
+a.author[href$="dog_time"]:before { background-position: -304px 0px }
+a.author[href$="Pretzel_Boy"]:before { background-position: -320px 0px }
+a.author[href$="NotADoctor"]:before { background-position: -336px 0px }
+a.author[href$="toejam316"]:after { content: " (toejam316)" }
+a.author[href$="the1stPlague"]:after { content: " (the1stplague)" }
+a.author[href$="Doozz"]:after { content: " (Doozz)" }
+a.author[href$="Popengton"]:after { content: " (Popengton)" }
+a.author[href$="cmrn"]:after { content: " (cmrn)" }
+a.author[href$="Maxwell_Lord"]:after { content: " (maxwell_lord)" }
+a.author[href$="bruint"]:after { content: " (bruint)" }
+a.author[href$="mrmarcel"]:after { content: " (mrmarcel)" }
+a.author[href$="GregorCZ"]:after { content: " (GregorCZ)" }
+a.author[href$="wonderbreadz"]:after { content: " (wonderbreadz)" }
+a.author[href$="bakkaar"]:after { content: " (bakkar)" }
+a.author[href$="MonkeyCrumpets"]:after { content: " (monkeycrumpets)" }
+a.author[href$="BlackJack313"]:after { content: " (BlackJack313)" }
+a.author[href$="Managore"]:after { content: " (Managore)" }
+a.author[href$="flashing_lights"]:after { content: " (mdubbs)" }
+a.author[href$="rmccue"]:after { content: " (rmccue)" }
+a.author[href$="Kie"]:after { content: " (Kieness)" }
+a.author[href$="Reikk"]:after { content: " (squafro)" }
+a.author[href$="emilevictor"]:after { content: " (laR0che)" }
+a.author[href$="TJ_FS"]:after { content: " (tjfs)" }
+a.author[href$="Skeletal"]:after { content: " (Skeletal)" }
+a.author[href$="jdwpom"]:after { content: " (jdwpom)" }
+a.author[href$="MysteryStain"]:after { content: " (penterz)" }
+a.author[href$="xrobau"]:after { content: " (xrobau)" }
+a.author[href$="flashman"]:after { content: " (Electronsoup)" }
+a.author[href$="Pandamonial"]:after { content: " (pandaslol)" }
+a.author[href$="Al_Rascala"]:after { content: " (AlRascala)" }
+a.author[href$="default"]:after { content: " (default)" }
+a.author[href$="dardyfella"]:after { content: " (Wigga)" }
+a.author[href$="thavi"]:after { content: " (thavi)" }
+a.author[href$="dog_time"]:after { content: " (dogtime)" }
+a.author[href$="mrsheen"]:after { content: " (mrsheen)" }
+a.author[href$="JacobAus"]:after { content: " (DamnPants)" }
+a.author[href$="Pretzel_Boy"]:after { content: " (PretzelBoy)" }
+a.author[href$="NotADoctor"]:after { content: " (NotADoctor)" }
+a.author[href$="xloserfishx"]:after { content: " (xloserfishx)" }
+a.author[href$="TheStrelok"]:after { content: " (TheStrelok)" }
+/* End script replacement */
+
+a.author[href$="xNotch"]:after {
+    content: " (The Creator)";padding-left: 3px; font-style:italic; font-weight: bold; font-size:110%;
+    color: red
+    }
+
+
+
+/*SIDEBAR GRAPHIC*/
+.side {
+    /* Change the padding-top px to the height of the image */
+    padding-top: 245px;
+    padding-right: 0;
+    /* change the background-image to whatever you want */
+    background-image: url(%%peekingcreeper%%);
+    /* leave these properties as is */
+    background-repeat: no-repeat
+    }
+.side:after {
+    content: "testing"
+    }
+
+/*** ARROWS UP/DOWNMODS ***/
+.arrow.upmod {
+    background-image: url(%%upmod1%%);
+    background-position: 0 0
+    }
+.arrow.downmod {
+    background-image: url(%%downmod1%%);
+    background-position: 0 0
+    }
+.arrow.up {
+    background-image: url(%%up1%%);
+    background-position: 0 0;
+    opacity: 0.65
+    }
+.arrow.down {
+    background-image: url(%%down1%%);
+    background-position: 0 0;
+    opacity: 0.65
+    }
+
+
+
+/*HEADER AND LOGO*/
+#header-bottom-left { background-image: url(%%header1%%) }
+#header-bottom-left .redditname a {font-size: large;color: white}
+#header-bottom-left .selected {color: white}
+
+/*TERRAINMOBSTRIP*/
+a[href="/brick"]:after,
+a[href="/coal"]:after,
+a[href="/coalore"]:after,
+a[href="/cobblestone"]:after,
+a[href="/diamond"]:after,
+a[href="/diamondore"]:after,
+a[href="/flint"]:after,
+a[href="/flower"]:after,
+a[href="/furnace"]:after,
+a[href="/glass"]:after,
+a[href="/gold"]:after,
+a[href="/goldore"]:after,
+a[href="/grass"]:after,
+a[href="/gravel"]:after,
+a[href="/gunpowder"]:after,
+a[href="/iron"]:after,
+a[href="/ironore"]:after,
+a[href="/lava"]:after,
+a[href="/leaf"]:after,
+a[href="/log"]:after,
+a[href="/meat"]:after,
+a[href="/cookedmeat"]:after,
+a[href="/creeper"]:after,
+a[href="/skeleton"]:after,
+a[href="/spider"]:after,
+a[href="/zombie"]:after,
+a[href="/mossystone"]:after,
+a[href="/obsidian"]:after,
+a[href="/sand"]:after,
+a[href="/soil"]:after,
+a[href="/stick"]:after,
+a[href="/stone"]:after,
+a[href="/tnt"]:after,
+a[href="/torch"]:after,
+a[href="/wheat"]:after,
+a[href="/wood"]:after,
+a[href="/workbench"]:after,
+a[href="/blank"]:after {
+    width: 16px;
+    height: 16px;
+    content: "";
+    background-image: url(%%terrainmobstrip%%);
+    display: inline-block;
+    cursor: default; }
+ 
+a[href="/brick"]:after {
+    background-position: -0px;
+}
+ 
+a[href="/coal"]:after {
+    background-position: -16px;
+}
+ 
+a[href="/coalore"]:after {
+    background-position: -32px;
+}
+ 
+a[href="/cobblestone"]:after {
+    background-position: -48px;
+}
+ 
+a[href="/diamond"]:after {
+    background-position: -64px;
+}
+ 
+a[href="/diamondore"]:after {
+    background-position: -80px;
+}
+ 
+a[href="/flint"]:after {
+    background-position: -96px;
+}
+ 
+a[href="/flower"]:after {
+    background-position: -112px;
+}
+ 
+a[href="/furnace"]:after {
+    background-position: -128px;
+}
+ 
+a[href="/glass"]:after {
+    background-position: -144px;
+}
+ 
+a[href="/gold"]:after {
+    background-position: -160px;
+}
+ 
+a[href="/goldore"]:after {
+    background-position: -176px;
+}
+ 
+a[href="/grass"]:after {
+    background-position: -192px;
+}
+ 
+a[href="/gravel"]:after {
+    background-position: -208px;
+}
+ 
+a[href="/gunpowder"]:after {
+    background-position: -224px;
+}
+ 
+a[href="/iron"]:after {
+    background-position: -240px;
+}
+ 
+a[href="/ironore"]:after {
+    background-position: -256px;
+}
+ 
+a[href="/lava"]:after {
+    background-position: -272px;
+}
+ 
+a[href="/leaf"]:after {
+    background-position: -288px;
+}
+ 
+a[href="/log"]:after {
+    background-position: -304px;
+}
+ 
+a[href="/meat"]:after {
+    background-position: -320px;
+}
+ 
+a[href="/cookedmeat"]:after {
+    background-position: -336px;
+}
+ 
+a[href="/creeper"]:after {
+    background-position: -352px;
+}
+ 
+a[href="/skeleton"]:after {
+    background-position: -368px;
+}
+ 
+a[href="/spider"]:after {
+    background-position: -384px;
+}
+ 
+a[href="/zombie"]:after {
+    background-position: -400px;
+}
+ 
+a[href="/mossystone"]:after {
+    background-position: -416px;
+}
+ 
+a[href="/obsidian"]:after {
+    background-position: -432px;
+}
+ 
+a[href="/sand"]:after {
+    background-position: -448px;
+}
+ 
+a[href="/soil"]:after {
+    background-position: -464px;
+}
+ 
+a[href="/stick"]:after {
+    background-position: -480px;
+}
+ 
+a[href="/stone"]:after {
+    background-position: -496px;
+}
+ 
+a[href="/tnt"]:after {
+    background-position: -512px;
+}
+ 
+a[href="/torch"]:after {
+    background-position: -528px;
+}
+ 
+a[href="/wheat"]:after {
+    background-position: -544px;
+}
+ 
+a[href="/wood"]:after {
+    background-position: -560px;
+}
+ 
+a[href="/workbench"]:after {
+    background-position: -576px;
+}
+ 
+a[href="/blank"]:after {
+    background-position: -592px;
+}
+ 
+/*ITEMSTRIP*/
+a[href="/lhelmet"]:after,
+a[href="/chelmet"]:after,
+a[href="/ihelmet"]:after,
+a[href="/dhelmet"]:after,
+a[href="/ghelmet"]:after,
+a[href="/lchest"]:after,
+a[href="/cchest"]:after,
+a[href="/ichest"]:after,
+a[href="/dchest"]:after,
+a[href="/gchest"]:after,
+a[href="/lpant"]:after,
+a[href="/cpant"]:after,
+a[href="/ipant"]:after,
+a[href="/dpant"]:after,
+a[href="/gpant"]:after,
+a[href="/lboot"]:after,
+a[href="/cboot"]:after,
+a[href="/iboot"]:after,
+a[href="/dboot"]:after,
+a[href="/gboot"]:after,
+a[href="/wsword"]:after,
+a[href="/ssword"]:after,
+a[href="/isword"]:after,
+a[href="/dsword"]:after,
+a[href="/gsword"]:after,
+a[href="/wspade"]:after,
+a[href="/sspade"]:after,
+a[href="/ispade"]:after,
+a[href="/dspade"]:after,
+a[href="/gspade"]:after,
+a[href="/wpick"]:after,
+a[href="/spick"]:after,
+a[href="/ipick"]:after,
+a[href="/dpick"]:after,
+a[href="/gpick"]:after {
+    width: 16px;
+    height: 16px;
+    content: "";
+    background-image: url(%%itemstrip%%);
+    display: inline-block;
+    cursor: default; }
+ 
+a[href="/lhelmet"]:after {
+    background-position: -0px;
+}
+ 
+a[href="/chelmet"]:after {
+    background-position: -16px;
+}
+ 
+a[href="/ihelmet"]:after {
+    background-position: -32px;
+}
+ 
+a[href="/dhelmet"]:after {
+    background-position: -48px;
+}
+ 
+a[href="/ghelmet"]:after {
+    background-position: -64px;
+}
+ 
+a[href="/lchest"]:after {
+    background-position: -80px;
+}
+ 
+a[href="/cchest"]:after {
+    background-position: -96px;
+}
+ 
+a[href="/ichest"]:after {
+    background-position: -112px;
+}
+ 
+a[href="/dchest"]:after {
+    background-position: -128px;
+}
+ 
+a[href="/gchest"]:after {
+    background-position: -144px;
+}
+ 
+a[href="/lpant"]:after {
+    background-position: -160px;
+}
+ 
+a[href="/cpant"]:after {
+    background-position: -176px;
+}
+ 
+a[href="/ipant"]:after {
+    background-position: -192px;
+}
+ 
+a[href="/dpant"]:after {
+    background-position: -208px;
+}
+ 
+a[href="/gpant"]:after {
+    background-position: -224px;
+}
+ 
+a[href="/lboot"]:after {
+    background-position: -240px;
+}
+ 
+a[href="/cboot"]:after {
+    background-position: -256px;
+}
+ 
+a[href="/iboot"]:after {
+    background-position: -272px;
+}
+ 
+a[href="/dboot"]:after {
+    background-position: -288px;
+}
+ 
+a[href="/gboot"]:after {
+    background-position: -304px;
+}
+ 
+a[href="/wsword"]:after {
+    background-position: -320px;
+}
+ 
+a[href="/ssword"]:after {
+    background-position: -336px;
+}
+ 
+a[href="/isword"]:after {
+    background-position: -352px;
+}
+ 
+a[href="/dsword"]:after {
+    background-position: -368px;
+}
+ 
+a[href="/gsword"]:after {
+    background-position: -384px;
+}
+ 
+a[href="/wspade"]:after {
+    background-position: -400px;
+}
+ 
+a[href="/sspade"]:after {
+    background-position: -416px;
+}
+ 
+a[href="/ispade"]:after {
+    background-position: -432px;
+}
+ 
+a[href="/dspade"]:after {
+    background-position: -448px;
+}
+ 
+a[href="/gspade"]:after {
+    background-position: -464px;
+}
+ 
+a[href="/wpick"]:after {
+    background-position: -480px;
+}
+ 
+a[href="/spick"]:after {
+    background-position: -496px;
+}
+ 
+a[href="/ipick"]:after {
+    background-position: -512px;
+}
+ 
+a[href="/dpick"]:after {
+    background-position: -528px;
+}
+ 
+a[href="/gpick"]:after {
+    background-position: -544px;
+}
+ 
+/*ITEMSTRIP2*/
+a[href="/waxe"]:after,
+a[href="/saxe"]:after,
+a[href="/iaxe"]:after,
+a[href="/daxe"]:after,
+a[href="/gaxe"]:after,
+a[href="/whoe"]:after,
+a[href="/shoe"]:after,
+a[href="/ihoe"]:after,
+a[href="/dhoe"]:after,
+a[href="/ghoe"]:after,
+a[href="/bow"]:after,
+a[href="/arrow"]:after,
+a[href="/bucket"]:after,
+a[href="/wbucket"]:after,
+a[href="/lbucket"]:after,
+a[href="/mbucket"]:after,
+a[href="/leather"]:after,
+a[href="/saddle"]:after,
+a[href="/reddust"]:after,
+a[href="/clay"]:after,
+a[href="/bread"]:after,
+a[href="/string"]:after,
+a[href="/feather"]:after,
+a[href="/seeds"]:after,
+a[href="/apple"]:after,
+a[href="/gapple"]:after,
+a[href="/sign"]:after,
+a[href="/wdoor"]:after,
+a[href="/idoor"]:after,
+a[href="/paper"]:after,
+a[href="/book"]:after,
+a[href="/cart"]:after,
+a[href="/scart"]:after,
+a[href="/pcart"]:after,
+a[href="/boat"]:after,
+a[href="/ladder"]:after,
+a[href="/track"]:after,
+a[href="/midwireoff"]:after,
+a[href="/hwireoff"]:after,
+a[href="/midwireon"]:after,
+a[href="/hwireon"]:after {
+    width: 16px;
+    height: 16px;
+    content: "";
+    background-image: url(%%itemstrip2%%);
+    display: inline-block;
+    cursor: default; }
+       
+a[href="/waxe"]:after {
+    background-position: -0px;
+}
+ 
+a[href="/saxe"]:after {
+    background-position: -16px;
+}
+ 
+a[href="/iaxe"]:after {
+    background-position: -32px;
+}
+ 
+a[href="/daxe"]:after {
+    background-position: -48px;
+}
+ 
+a[href="/gaxe"]:after {
+    background-position: -64px;
+}
+ 
+a[href="/whoe"]:after {
+    background-position: -80px;
+}
+ 
+a[href="/shoe"]:after {
+    background-position: -96px;
+}
+ 
+a[href="/ihoe"]:after {
+    background-position: -112px;
+}
+ 
+a[href="/dhoe"]:after {
+    background-position: -128px;
+}
+ 
+a[href="/ghoe"]:after {
+    background-position: -144px;
+}
+ 
+a[href="/bow"]:after {
+    background-position: -160px;
+}
+ 
+a[href="/arrow"]:after {
+    background-position: -176px;
+}
+ 
+a[href="/bucket"]:after {
+    background-position: -192px;
+}
+ 
+a[href="/wbucket"]:after {
+    background-position: -208px;
+}
+ 
+a[href="/lbucket"]:after {
+    background-position: -224px;
+}
+ 
+a[href="/mbucket"]:after {
+    background-position: -240px;
+}
+ 
+a[href="/leather"]:after {
+    background-position: -256px;
+}
+ 
+a[href="/saddle"]:after {
+    background-position: -272px;
+}
+ 
+a[href="/reddust"]:after {
+    background-position: -288px;
+}
+ 
+a[href="/clay"]:after {
+    background-position: -304px;
+}
+ 
+a[href="/bread"]:after {
+    background-position: -320px;
+}
+ 
+a[href="/string"]:after {
+    background-position: -336px;
+}
+ 
+a[href="/feather"]:after {
+    background-position: -352px;
+}
+ 
+a[href="/seeds"]:after {
+    background-position: -368px;
+}
+ 
+a[href="/apple"]:after {
+    background-position: -384px;
+}
+ 
+a[href="/gapple"]:after {
+    background-position: -400px;
+}
+ 
+a[href="/sign"]:after {
+    background-position: -416px;
+}
+ 
+a[href="/wdoor"]:after {
+    background-position: -432px;
+}
+ 
+a[href="/idoor"]:after {
+    background-position: -448px;
+}
+ 
+a[href="/paper"]:after {
+    background-position: -464px;
+}
+ 
+a[href="/book"]:after {
+    background-position: -480px;
+}
+ 
+a[href="/cart"]:after {
+    background-position: -496px;
+}
+ 
+a[href="/scart"]:after {
+    background-position: -512px;
+}
+ 
+a[href="/pcart"]:after {
+    background-position: -528px;
+}
+ 
+a[href="/boat"]:after {
+    background-position: -544px;
+}
+ 
+a[href="/ladder"]:after {
+    background-position: -560px;
+}
+ 
+a[href="/track"]:after {
+    background-position: -576px;
+}
+ 
+a[href="/midwireoff"]:after {
+    background-position: -592px;
+}
+ 
+a[href="/hwireoff"]:after {
+    background-position: -608px;
+}
+ 
+a[href="/midwireon"]:after {
+    background-position: -624px;
+}
+ 
+a[href="/hwireon"]:after {
+    background-position: -640px;
+}
+ 
+/*ITEMSTRIP3*/
+a[href="/snowball"]:after,
+a[href="/redbrick"]:after,
+a[href="/jukebox"]:after,
+a[href="/flintsteel"]:after,
+a[href="/compass"]:after,
+a[href="/button"]:after,
+a[href="/lever"]:after,
+a[href="/redtorch"]:after,
+a[href="/bowl"]:after,
+a[href="/msoup"]:after,
+a[href="/rshroom"]:after,
+a[href="/bshroom"]:after,
+a[href="/fence"]:after,
+a[href="/art1"]:after,
+a[href="/art2"]:after,
+a[href="/art3"]:after,
+a[href="/vwireoff"]:after,
+a[href="/vwireon"]:after,
+a[href="/redore"]:after {
+    width: 16px;
+    height: 16px;
+    content: "";
+    background-image: url(%%itemstrip3%%);
+    display: inline-block;
+    cursor: default; }
+ 
+a[href="/snowball"]:after {
+    background-position: -0px;
+}
+ 
+a[href="/redbrick"]:after {
+    background-position: -16px;
+}
+ 
+a[href="/jukebox"]:after {
+    background-position: -32px;
+}
+ 
+a[href="/flintsteel"]:after {
+    background-position: -48px;
+}
+
+a[href="/compass"]:after {
+    background-position: -64px;
+}
+
+a[href="/button"]:after {
+    background-position: -80px;
+}
+ 
+a[href="/lever"]:after {
+    background-position: -96px;
+}
+ 
+a[href="/redtorch"]:after {
+    background-position: -112px;
+}
+ 
+a[href="/bowl"]:after {
+    background-position: -128px;
+}
+ 
+a[href="/msoup"]:after {
+    background-position: -144px;
+}
+ 
+a[href="/rshroom"]:after {
+    background-position: -160px;
+}
+ 
+a[href="/bshroom"]:after {
+    background-position: -176px;
+}
+ 
+a[href="/fence"]:after {
+    background-position: -192px;
+}
+ 
+a[href="/art1"]:after {
+    background-position: -208px;
+}
+ 
+a[href="/art2"]:after {
+    background-position: -224px;
+}
+ 
+a[href="/art3"]:after {
+    background-position: -240px;
+}
+ 
+a[href="/vwireoff"]:after {
+    background-position: -256px;
+}
+ 
+a[href="/vwireon"]:after {
+    background-position: -272px;
+}
+ 
+a[href="/redore"]:after {
+    background-position: -288px;
+}
+
+a[href="/thatsaniceeverything"]:after { 
+    width: 72px;
+    height: 72px;
+    content: "";
+    background-image: url(%%bigcreeper%%);
+    background-position: -0px;
+    display: inline-block;
+    cursor: default;
+}
+a[href="/herobrine"]:after { 
+    width: 72px;
+    height: 72px;
+    content: "";
+    background-image: url(%%him%%);
+    background-position: -0px;
+    display: inline-block;
+    cursor: default;
+}
